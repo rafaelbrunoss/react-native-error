@@ -1,0 +1,35 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",    
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2019"
+    ],
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": true,
+    "paths": {
+      "@core/*": ["src/core/*"],
+      "@assets/*": ["src/assets/*"],
+      "@home/*": ["src/modules/home/*"],
+      "@auth/*": ["src/modules/auth/*"],
+      "@integrator/*": ["src/modules/integrator/*"],
+      "@survey/*": ["src/modules/survey/*"],
+    },
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "include": [
+    "src",
+    "__tests__",
+    "babel.config.js",
+    "jest.config.js",
+    "metro.config.js",
+    "react-app.d.ts"
+  ]
+}

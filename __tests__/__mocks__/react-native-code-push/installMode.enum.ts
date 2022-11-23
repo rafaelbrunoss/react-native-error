@@ -1,0 +1,6 @@
+export enum InstallMode {
+  IMMEDIATE,
+  ON_NEXT_RESTART,
+  ON_NEXT_RESUME,
+  ON_NEXT_SUSPEND,
+}

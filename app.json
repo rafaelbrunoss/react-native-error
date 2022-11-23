@@ -1,0 +1,7 @@
+{
+  "name": "Navigator",
+  "displayName": "Navigator",
+  "packagerOpts": {
+    "config": "metro.config.js"
+  }
+}

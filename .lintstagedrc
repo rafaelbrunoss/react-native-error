@@ -1,0 +1,66 @@
+{
+  "./src/core/components/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/components",
+    "git add"
+  ],
+  "./src/core/hooks/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/hooks",
+    "git add"
+  ],
+  "./src/core/models/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/models",
+    "git add"
+  ],
+  "./src/core/navigation/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/navigation",
+    "git add"
+  ],
+  "./src/core/services/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/services",
+    "git add"
+  ],
+  "./src/core/store/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/store",
+    "git add"
+  ],
+  "./src/core/styles/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/styles",
+    "git add"
+  ],
+  "./src/core/utils/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/core/utils",
+    "git add"
+  ],
+  "./src/modules/auth/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/modules/auth",
+    "git add"
+  ],
+  "./src/modules/home/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/modules/home",
+    "git add"
+  ],
+  "./src/modules/integrator/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/modules/integrator",
+    "git add"
+  ],
+  "./src/modules/survey/*.{js,jsx,ts,tsx}": [
+    "npm run format",
+    "npm run lint-folder src/modules/survey",
+    "git add"
+  ],
+  "*.scss,*.css": [
+    "npm run stylelint",
+    "git add"
+  ]
+}

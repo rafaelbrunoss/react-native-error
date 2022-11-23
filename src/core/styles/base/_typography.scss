@@ -1,0 +1,9 @@
+/* 
+  This file should only contain the typography rules
+*/
+
+@import '../utilities/variables';
+
+.primary {
+  background-color: map-get($colors, primary);
+}

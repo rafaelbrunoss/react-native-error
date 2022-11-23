@@ -1,0 +1,45 @@
+/* 
+  This file should not contain rules, only variables
+*/
+
+$success: #20ff00;
+$warning: #ffd000;
+$error: #f00;
+
+$colors: (
+  success: $success,
+  warning: $warning,
+  error: $error,
+);
+
+$margins: (
+  x-large: 15,
+  large: 10,
+  normal: 5,
+  small: 2,
+  x-small: 1,
+);
+
+$paddings: (
+  x-large: 15,
+  large: 10,
+  normal: 5,
+  small: 2,
+  x-small: 1,
+);
+
+$font-size: (
+  x-large: 30,
+  large: 22,
+  normal: 18,
+  small: 14,
+  x-small: 12,
+);
+
+$icon-size: (
+  x-large: 70,
+  large: 50,
+  normal: 30,
+  small: 20,
+  x-small: 10,
+);

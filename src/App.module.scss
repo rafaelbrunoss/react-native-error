@@ -1,0 +1,6 @@
+@import './core/styles/utilities/variables';
+
+.container {
+  background-color: map-get($colors, neutral);
+  flex: 1;
+}

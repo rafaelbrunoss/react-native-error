@@ -1,0 +1,5 @@
+src/**/*.css
+src/**/*.scss
+metro.config.js
+.history/**
+.scannerwork/**

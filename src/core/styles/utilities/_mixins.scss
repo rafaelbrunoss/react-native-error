@@ -1,0 +1,31 @@
+/* 
+  This file should not contain rules, only mixins
+*/
+
+@mixin padding($value) {
+  padding-bottom: $value;
+  padding-left: $value;
+  padding-right: $value;
+  padding-top: $value;
+}
+
+@mixin margin($value) {
+  margin-bottom: $value;
+  margin-left: $value;
+  margin-right: $value;
+  margin-top: $value;
+}
+
+@mixin border-width($value) {
+  border-bottom-width: $value;
+  border-left-width: $value;
+  border-right-width: $value;
+  border-top-width: $value;
+}
+
+@mixin border-radius($value) {
+  border-bottom-left-radius: $value;
+  border-bottom-right-radius: $value;
+  border-top-left-radius: $value;
+  border-top-right-radius: $value;
+}

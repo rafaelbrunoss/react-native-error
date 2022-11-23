@@ -1,0 +1,8 @@
+**/.bundle
+**/android
+**/ios
+**/node_modules
+**/*tsconfig.json
+**/coverage
+**/.history
+**/.scannerwork
