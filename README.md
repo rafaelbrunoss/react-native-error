@@ -26,7 +26,7 @@ Error: Import statement may only appear at top level in file index.js at 4:2
     at minifyCode (/home/rafael/Documents/Library/react-native-error/node_modules/@react-native-community/cli-plugin-metro/node_modules/metro-transform-worker/src/index.js:99:13)
 ```
 
-After I get the bundle file and then modifying the build command to
+Using the last bundle file and then modifying the build command to
 
 ```bash
 cd android && ./gradlew assembleRelease -x bundleReleaseJsAndAssets
@@ -42,7 +42,7 @@ Execution failed for task ':app:mapReleaseSourceSetPaths'.
 ```
 
 
-I create some npm scripts to make it easy to execute this commands
+I created some npm scripts to make it easy to execute this commands
 
 npm run fix:bundle
 npm run gradle:clean
